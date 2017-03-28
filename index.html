@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parlinet</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700"
+        rel="stylesheet"
+    >
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather"
+        rel="stylesheet"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        href="./images/favicon_dark.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="logo">
+          <img src="images/parlinet_logo_light.png" />
+        </div>
+        <div class="section">
+          <h1>Coming soon to your home town</h1>
+          <p>
+            <strong>Parlinet</strong> is a civic discussion platform that empowers local officials and their constituents to collaborate on issues they care about. Raise issues, understand your neighbors' concerns, and collaborate with local officials on solutions.
+          </p>
+        </div>
+        <div class="section">
+          <h1>Join our mailing list</h1>
+          <form
+            action="https://formspree.io/hello@parlinet.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+            >
+            <input
+              type="text"
+              name="zipcode"
+              placeholder="Zipcode"
+            >
+            <input
+              type="email"
+              name="_replyto"
+              placeholder="Email Address"
+            >
+            <input
+              type="submit"
+              value="Keep me posted!"
+            >
+            <input
+              type="hidden"
+              name="_next"
+              value="./thanks.html"
+            />
+          </form>
+        </div>
+
+      </div><!-- END .content -->
+      <div class="afterthought">
+        Questions? Email <a href="mailto:hello@parlinet.com">hello@parlinet.com</a>
+      </div>
+    </div><!-- END .container -->
+  </body>
+</html>
